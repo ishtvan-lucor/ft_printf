@@ -1,19 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.c                                        :+:      :+:    :+:   */
+/*   libftprintf.h                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ikoloshy <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/08/11 19:59:39 by ikoloshy          #+#    #+#             */
-/*   Updated: 2018/08/11 20:06:28 by ikoloshy         ###   ########.fr       */
+/*   Created: 2018/08/11 20:04:48 by ikoloshy          #+#    #+#             */
+/*   Updated: 2018/08/11 20:05:12 by ikoloshy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libftprintf.h"
+#ifndef FT_PRINTF_LIBFTPRINTF_H
+#define FT_PRINTF_LIBFTPRINTF_H
 
-size_t	ft_printf(const char *format, ...)
-{
+# include "libft/libft.h"
+# include <stdarg.h>
 
-	return (0);
-}
+#endif //FT_PRINTF_LIBFTPRINTF_H
