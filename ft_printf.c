@@ -12,8 +12,14 @@
 
 #include "libftprintf.h"
 
-size_t	ft_printf(const char *format, ...)
+int main(void)
 {
-
+	ft_putstr("hello\n");
 	return (0);
 }
+
+//size_t	ft_printf(const char *format, ...)
+//{
+//
+//	return (0);
+//}
